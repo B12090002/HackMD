@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        我的第一個Hack md筆記 - HackMD
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{background:#fff;color:#333;display:block;overflow-x:auto;padding:.5em}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{background-color:#eaffea;color:#55a532}.hljs-deletion{background-color:#ffecec;color:#bd2c00}.hljs-link{text-decoration:underline}.markdown-body{word-wrap:break-word;font-size:16px;line-height:1.5}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body hr{background-color:#e7e7e7;border:0;height:.25em;margin:24px 0;padding:0}.markdown-body blockquote{border-left:.25em solid #ddd;color:#777;font-size:16px;padding:0 1em}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{background-color:#fcfcfc;border:1px solid;border-color:#ccc #ccc #bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;color:#555;display:inline-block;font-size:11px;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{border-bottom:1px solid #eee;padding-bottom:.3em}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{color:#777;font-size:.85em}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{padding-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:700;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table{display:block;overflow:auto;width:100%;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{border:1px solid #ddd;padding:6px 13px}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{background-color:#fff;box-sizing:initial;max-width:100%}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:initial;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid #ddd;display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:#333;display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:#0000000a;border-radius:3px;font-size:85%;margin:0;padding:.2em 0}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{content:"\00a0";letter-spacing:-.2em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{background:#0000;border:0;font-size:100%;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{border-radius:3px;font-size:85%;line-height:1.45;overflow:auto}.markdown-body:not(.next-editor) pre{background-color:#f7f7f7;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:initial;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{background:#fff;border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:#f8f8f8;border-top:0;font-weight:700}.news .alert .markdown-body blockquote{border:0;padding:0 0 0 40px}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{cursor:default!important;float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle}.markdown-alert{border-left-style:solid;border-left-width:4px;color:inherit;margin-bottom:16px;padding:8px 16px}.markdown-alert .markdown-alert-title{align-items:center;display:flex;font-weight:500;line-height:1;white-space:break-spaces}.markdown-body .markdown-alert>*{margin-bottom:0;margin-top:16px}.markdown-body .markdown-alert .selection-popover,.markdown-body .markdown-alert>:first-child{margin-top:0}.markdown-alert.markdown-alert-note{border-left-color:#0969da}.markdown-alert.markdown-alert-note .markdown-alert-title{fill:currentColor;color:#0969da}.markdown-alert.markdown-alert-tip{border-left-color:#1a7f37}.markdown-alert.markdown-alert-tip .markdown-alert-title{fill:currentColor;color:#1a7f37}.markdown-alert.markdown-alert-important{border-left-color:#8250df}.markdown-alert.markdown-alert-important .markdown-alert-title{fill:currentColor;color:#8250df}.markdown-alert.markdown-alert-warning{border-left-color:#9a6700}.markdown-alert.markdown-alert-warning .markdown-alert-title{fill:currentColor;color:#9a6700}.markdown-alert.markdown-alert-caution{border-left-color:#d1242f}.markdown-alert.markdown-alert-caution .markdown-alert-title{fill:currentColor;color:#d1242f}.markdown-body{max-width:758px;overflow:visible!important;padding-bottom:40px;padding-top:40px;position:relative}.markdown-body.next-editor{overflow-x:hidden!important}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{border-right:3px solid #6ce26c!important;box-sizing:initial;color:#afafaf!important;cursor:default;display:inline-block;min-width:20px;padding:0 8px 0 0;position:relative;text-align:right;z-index:4}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-bottom:none;border-left:none;border-top:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-collapse:inherit!important;border-spacing:0}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{margin-bottom:unset;overflow:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert{display:flex;flex-direction:column;gap:16px}.markdown-body .alert>*{margin:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram,.markdown-body pre.vega{background-color:inherit;border-radius:0;overflow:visible;text-align:center;white-space:inherit}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code,.markdown-body pre.vega>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg,.markdown-body pre.vega>svg{height:100%;max-width:100%}.markdown-body pre>code.wrap{word-wrap:break-word;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap}.markdown-body pre.pseudocode{white-space-collapse:collapse}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{background-color:#000;background-position:50%;background-repeat:no-repeat;background-size:contain;cursor:pointer;display:table;overflow:hidden;text-align:center}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{object-fit:contain;width:100%;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{height:100%;left:0;position:absolute;top:0;width:100%}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{color:#fff;height:auto;left:50%;opacity:.3;position:absolute;top:50%;transform:translate(-50%,-50%);transition:opacity .2s;width:auto;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.figma{display:table;padding-bottom:56.25%;position:relative;width:100%}.figma iframe{border:1px solid #eee;bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.markmap-container{height:300px}.markmap-container>svg{height:100%;width:100%}.MJX_Assistive_MathML{display:none}#MathJax_Message{z-index:1000!important}.ui-infobar{color:#777;margin:25px auto -25px;max-width:760px;position:relative;z-index:2}.toc .invisable-node{list-style-type:none}.ui-toc{bottom:20px;position:fixed;z-index:998}.ui-toc.both-mode{margin-left:8px}.ui-toc.both-mode .ui-toc-label{border-bottom-left-radius:0;border-top-left-radius:0;height:40px;padding:10px 4px}.ui-toc-label{background-color:#e6e6e6;border:none;color:#868686;transition:opacity .2s}.ui-toc .open .ui-toc-label{color:#fff;opacity:1;transition:opacity .2s}.ui-toc-label:focus{background-color:#ccc;color:#000;opacity:.3}.ui-toc-label:hover{background-color:#ccc;opacity:1;transition:opacity .2s}.ui-toc-dropdown{margin-bottom:20px;margin-top:20px;max-height:70vh;max-width:45vw;overflow:auto;padding-left:10px;padding-right:10px;text-align:inherit;width:25vw}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{letter-spacing:.0029em;padding-right:0}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{color:#767676;display:block;font-size:13px;font-weight:500;padding:4px 20px}.ui-toc-dropdown .nav>li:first-child:last-child>ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{background-color:initial;border-left:1px solid #000;color:#000;padding-left:19px;text-decoration:none}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{border-left:none;border-right:1px solid #000;padding-right:19px}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{background-color:initial;border-left:2px solid #000;color:#000;font-weight:700;padding-left:18px}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{border-left:none;border-right:2px solid #000;padding-right:18px}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{font-size:12px;font-weight:400;padding-bottom:1px;padding-left:30px;padding-top:1px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{font-size:12px;font-weight:400;padding-bottom:1px;padding-left:40px;padding-top:1px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{font-weight:500;padding-left:28px}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{font-weight:500;padding-left:38px}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{max-height:70vh;max-width:15vw;overflow:auto;position:fixed;top:0}.back-to-top,.expand-toggle,.go-to-bottom{color:#999;display:block;font-size:12px;font-weight:500;margin-left:10px;margin-top:10px;padding:4px 10px}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{background-position:50%;background-repeat:no-repeat;background-size:cover;border-radius:50%;display:block;height:20px;margin-bottom:2px;margin-right:5px;margin-top:2px;width:20px}.ui-user-icon.small{display:inline-block;height:18px;margin:0 0 .2em;vertical-align:middle;width:18px}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-more-info{color:#888;cursor:pointer;vertical-align:middle}.ui-more-info .fa{font-size:16px}.ui-connectedGithub,.ui-published-note{color:#888}.ui-connectedGithub{line-height:23px;white-space:nowrap}.ui-connectedGithub a.file-path{color:#888;padding-left:22px;text-decoration:none}.ui-connectedGithub a.file-path:active,.ui-connectedGithub a.file-path:hover{color:#888;text-decoration:underline}.ui-connectedGithub .fa{font-size:20px}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}.selectable{-webkit-user-select:text;-o-user-select:text;user-select:text}.inline-spoiler-section{cursor:pointer}.inline-spoiler-section .spoiler-text{background-color:#333;border-radius:2px}.inline-spoiler-section .spoiler-text>*{opacity:0}.inline-spoiler-section .spoiler-img{filter:blur(10px)}.inline-spoiler-section.raw{background-color:#333;border-radius:2px}.inline-spoiler-section.raw>*{opacity:0}.inline-spoiler-section.unveil{cursor:auto}.inline-spoiler-section.unveil .spoiler-text{background-color:#3333331a}.inline-spoiler-section.unveil .spoiler-text>*{opacity:1}.inline-spoiler-section.unveil .spoiler-img{filter:none}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{color:#222;position:relative;z-index:1}.markdown-body.slides:before{background-color:currentColor;bottom:0;box-shadow:0 0 0 50vw;content:"";display:block;left:0;position:absolute;right:0;top:0;z-index:-1}.markdown-body.slides section[data-markdown]{background-color:#fff;margin-bottom:1.5em;position:relative;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{left:1em;max-height:100%;overflow:hidden;position:absolute;right:1em;top:50%;transform:translateY(-50%)}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{border:3px solid #777;content:"";height:1.5em;position:absolute;right:1em;top:-1.5em}.site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif}html[lang=zh-tw] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;-webkit-overflow-scrolling:touch;font-family:Source Sans Pro,Helvetica,Arial,sans-serif;letter-spacing:.025em}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}svg{text-shadow:none}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-inner comment-enabled" data-hard-breaks="true"><h1 id="我的第一個Hack-md筆記" data-id="我的第一個Hack-md筆記"><a class="anchor hidden-xs" href="#我的第一個Hack-md筆記" title="我的第一個Hack-md筆記"><span class="octicon octicon-link"></span></a><strong><span>我的第一個Hack md筆記</span></strong></h1><h2 id="主題-多拉a夢" data-id="主題-多拉a夢"><a class="anchor hidden-xs" href="#主題-多拉a夢" title="主題-多拉a夢"><span class="octicon octicon-link"></span></a><span>主題: 多拉a夢</span></h2><p><span>哆啦A夢為日本漫畫家藤子·F·不二雄筆下的兒童、科幻類型日本漫畫，自1969年12月開始連載，共發行單行本45冊，原著大長篇漫畫17本，本作主要敘述1隻來自22世紀的貓型機器人——哆啦A夢，受原本主人野比世修的請託從未來回到現代，幫助他高祖父野比大雄的故事。作品中亦有滲入當時社會問題。</span></p><h3 id="故事概要" data-id="故事概要"><a class="anchor hidden-xs" href="#故事概要" title="故事概要"><span class="octicon octicon-link"></span></a><span>故事概要</span></h3><p><span>主角野比大雄為家中獨子，是住在日本東京都練馬區月見台芒原的小學生。他和來自未來22世紀的機器貓哆啦A夢共同生活。</span></p><p><span>大雄是身邊圍繞著父母、老師、同學的普通小學生，對於運動和唸書都很不擅長，學業成績極差，平均每五次考試就有一次是零分，並時常遭到同學欺侮。他的運氣也不好，經常遇到各種「災難」，連猜拳都經常會輸。</span></p><p><span>由於大雄的此種特性影響到了未來子孫的生活和表現，為了讓情況有所改善，其玄孫野比世修從未來的22世紀帶了哆啦A夢來幫助大雄改變命運，利用哆啦A夢許多未來世界的祕密道具協助大雄，故事就此展開。</span></p><h3 id="登場角色" data-id="登場角色"><a class="anchor hidden-xs" href="#登場角色" title="登場角色"><span class="octicon octicon-link"></span></a><span>登場角色</span></h3><ol>
+<li><span>哆啦A夢 本作主角之一。來自未來世界的藍色貓型機器人，身上的四次元口袋裝有許多工具，為避免大雄的命運走向悲慘而來。因為失去原生的耳朵，常被人以為是藍色的狸貓而引起不滿。害怕老鼠，喜歡吃銅鑼燒。</span></li>
+<li><span>野比大雄 通稱大雄。本作主角之一，哆啦A夢負責照顧的對象。身為小學四/五年級，課業、體育水平僅有二年級程度，常受師長責罵及同學欺負。喜歡靜香。性格純粹而感性——平時膽小、懶惰成性，受情感驅動時則鼓起勇氣、奮力拼搏；既會因得意忘形地炫耀或惡作劇而自討苦吃，也會因樂於行善而幫助靜香乃至他人。其心地善良、富有同理心、熱愛自然的特質，常成為扭轉態勢的關鍵。擅長射擊、翻花繩和快速入睡。</span></li>
+<li><span>源靜香 通稱靜香。大雄的同學兼朋友，成年後因認可大雄而與之結為連理。讀書用功、性情溫和、愛好和平。獨立自主，不喜歡被女孩的身份束縛。有點潔癖，而且拉小提琴的琴聲甚至比胖虎的歌還具有破壞力。</span></li>
+<li><span>剛田武 通稱胖虎。性格凶暴、身強力壯，喜歡唱歌和烹飪，水準極差卻不自覺，尤其是歌聲難聽到可作為武器。疼愛妹妹，懼怕媽媽。身為孩子王有著極強的領地意識——既喜歡橫行霸道地欺負同學以滿足權力慾，又會在同學受外人欺負時挺身而出。</span></li>
+<li><span>骨川小夫通稱小夫。家境富裕、篤信科學，喜愛藝術和洋貨。喜好賣弄炫耀、耍小聰明、非常自戀，經常幫胖虎欺負大雄，但自己也常會被胖虎欺負。出於對父親和表哥的崇拜，涉獵許多偏門知識。理性而現實，危機意識強，對於風險高的事易打退堂鼓。</span></li>
+<li><span>哆啦美 來自未來世界的黃色貓型機器人，是哆啦A夢的妹妹，與哆啦A夢一樣，身上的四次元四次元口袋裝有許多工具。</span></li>
+</ol><p><img src="data:image/jpeg;base64,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" alt="image alt" class="offline-handled error-handled" loading="lazy"></p><h2 id="多拉A夢-影片" data-id="多拉A夢-影片"><a class="anchor hidden-xs" href="#多拉A夢-影片" title="多拉A夢-影片"><span class="octicon octicon-link"></span></a><span>多拉A夢 影片</span></h2><p><span class="youtube" data-videoid="dmAJEMmQ35E"><iframe frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://www.youtube.com/embed/dmAJEMmQ35E"></iframe></span></p></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class=""><a href="#我的第一個Hack-md筆記" title="我的第一個Hack md筆記">我的第一個Hack md筆記</a><ul class="nav">
+<li class=""><a href="#主題-多拉a夢" title="主題: 多拉a夢">主題: 多拉a夢</a><ul class="nav">
+<li class=""><a href="#故事概要" title="故事概要">故事概要</a></li>
+<li class=""><a href="#登場角色" title="登場角色">登場角色</a></li>
+</ul>
+</li>
+<li><a href="#多拉A夢-影片" title="多拉A夢 影片">多拉A夢 影片</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">全部展開</a><a class="back-to-top" href="#">回到頂部</a><a class="go-to-bottom" href="#">移至底部</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;"  >
+        <div class="toc"><ul class="nav">
+<li class=""><a href="#我的第一個Hack-md筆記" title="我的第一個Hack md筆記">我的第一個Hack md筆記</a><ul class="nav">
+<li class=""><a href="#主題-多拉a夢" title="主題: 多拉a夢">主題: 多拉a夢</a><ul class="nav">
+<li class=""><a href="#故事概要" title="故事概要">故事概要</a></li>
+<li class=""><a href="#登場角色" title="登場角色">登場角色</a></li>
+</ul>
+</li>
+<li><a href="#多拉A夢-影片" title="多拉A夢 影片">多拉A夢 影片</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">全部展開</a><a class="back-to-top" href="#">回到頂部</a><a class="go-to-bottom" href="#">移至底部</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
